@@ -1,0 +1,113 @@
+body {
+    background-color: #fffff2;
+    height:70px;
+  }
+  
+  
+  
+  * {
+    padding: 0;
+    margin: 0;
+    font-family:monospace
+  }
+  
+  header,footer {
+    width: 100%;
+    background-color: rgb(203, 241, 253);
+    padding:15px;
+   
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color:white;
+  }
+  
+  header {
+    text-align:right;
+    border-bottom:5px solid rgb(223, 245, 202);
+    border-radius:10px;
+  }
+  
+  footer {
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+  }
+  
+  li{
+    display:inline;
+    padding:20px 10px;
+    
+    
+  }
+  
+  main{
+    text-align:center;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 20px;
+    line-height: 2px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  a {
+    font-size: 16px;
+    color: #ffffff;
+    display:inline;
+  }
+  
+  button{
+    left:400px;
+  }
+  
+  section {
+    margin: 20px auto;
+    width: 75%;
+    background-image:url(https://images.unsplash.com/photo-1603376277241-70b32265cf10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHNreSUyMHdpdGglMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80);
+    border: 5px solid rgb(130, 141, 238)
+    
+  }
+  
+  
+  
+  .first-element {
+    background-color: lightblue;
+    height:300px;
+  }
+  
+  .second-element {
+    background-color: goldenrod;
+  }
+  
+  /* Sets display of all elements with class selector to block */
+  .display-block {
+    display: block;
+  }
+  
+  /* Sets display of all elements with class selector to inline */
+  .display-inline {
+    display: inline;
+  }
+  
+  /* Sets display of all elements with class selector to inline */
+  .display-none {
+    display: none;
+  }
+  
+  #dog{
+      width:300px;
+      margin:40px;
+  }
